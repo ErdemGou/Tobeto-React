@@ -1,0 +1,30 @@
+.price span
+{
+  color: #ff9f1a;
+}
+
+
+@media (max-width: 768px) {
+  .img-fluid {
+     max-width: 100%;
+     height: auto;
+  }
+}
+
+.product-detail
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.actions
+{
+  display: flex;
+  gap: 15px;
+}
+
+.actions button 
+{
+  flex: 1;
+}
